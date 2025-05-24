@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\DevFreela\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\model\\openingtimeoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\model\\openingtimeoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\model\\createusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\user\\source\\repos\\devfreela\\devfreela.api\\model\\updateprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0751C25D-C3A9-43E4-9E98-437B3E0C4238}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\model\\updateprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,45 +50,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\LoginModel.cs",
-              "RelativeDocumentMoniker": "DevFreela.API\\Model\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\LoginModel.cs",
-              "RelativeToolTip": "DevFreela.API\\Model\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Program.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Program.cs",
+              "RelativeToolTip": "DevFreela.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:38:27.795Z",
+              "WhenOpened": "2025-05-22T23:21:53.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateCommentModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreateCommentModel.cs",
-              "RelativeDocumentMoniker": "DevFreela.API\\Model\\CreateCommentModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreateCommentModel.cs",
-              "RelativeToolTip": "DevFreela.API\\Model\\CreateCommentModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Title": "OpeningTimeOption.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\OpeningTimeOption.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Model\\OpeningTimeOption.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\OpeningTimeOption.cs",
+              "RelativeToolTip": "DevFreela.API\\Model\\OpeningTimeOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:32:55.78Z",
+              "WhenOpened": "2025-05-22T23:14:55.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DevFreela.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\appsettings.json",
+              "RelativeToolTip": "DevFreela.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T23:12:07.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CreateUserModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreateUserModel.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Model\\CreateUserModel.cs",
@@ -84,25 +105,35 @@
               "RelativeToolTip": "DevFreela.API\\Model\\CreateUserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:17:07.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T23:17:07.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UserControllers.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Controllers\\UserControllers.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\UserControllers.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Controllers\\UserControllers.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\UserControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:13:09.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T23:13:09.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Model\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\LoginModel.cs",
+              "RelativeToolTip": "DevFreela.API\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:38:27.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UpdateProjectModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\UpdateProjectModel.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Model\\UpdateProjectModel.cs",
@@ -110,12 +141,11 @@
               "RelativeToolTip": "DevFreela.API\\Model\\UpdateProjectModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T02:11:47.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T02:11:47.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreatedProjectModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreatedProjectModel.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Model\\CreatedProjectModel.cs",
@@ -123,21 +153,36 @@
               "RelativeToolTip": "DevFreela.API\\Model\\CreatedProjectModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:56:45.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T01:56:45.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsController.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Controllers\\ProjectsController.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T16:34:54.438Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateCommentModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreateCommentModel.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Model\\CreateCommentModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DevFreela\\DevFreela.API\\Model\\CreateCommentModel.cs",
+              "RelativeToolTip": "DevFreela.API\\Model\\CreateCommentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:32:55.78Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
