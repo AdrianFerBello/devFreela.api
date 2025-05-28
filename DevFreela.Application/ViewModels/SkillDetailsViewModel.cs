@@ -4,23 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevFreela.Core.Entities
+namespace DevFreela.Application.ViewModels
 {
-    public class Skill : BaseEntity
+    public class SkillDetailsViewModel
     {
-        public Skill(string description):base()
+        public SkillDetailsViewModel(int id, string description, DateTime createAt)
         {
+            Id = id;
             Description = description;
-            CreateAt = DateTime.Now;
+            CreateAt = createAt;
         }
 
+        public int Id { get; private set; }
         public string Description { get; private set; }
         public DateTime CreateAt { get; private set; }
-
-        //metodos
-        public void Update(string description)
-        {
-            Description = description;
-        }
     }
 }

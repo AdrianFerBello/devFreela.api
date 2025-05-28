@@ -30,22 +30,42 @@ namespace DevFreela.Application.Services.Implementations
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.FirstOrDefault(x => x.Id == id);
+
+            project.Cancel();   
         }
 
         public void Finish(int id)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.FirstOrDefault(x => x.Id == id);
+
+            project.Finish();
         }
 
         public List<ProjectViewModel> GetAll(string query)
         {
-            throw new NotImplementedException();
+            var projects = _dbContext.Projects;
+
+            var listProjectViewModel = projects
+                .Select(x => new ProjectViewModel(x.Id, x.Title, x.CreateAt))
+                .ToList();
+                
+            return listProjectViewModel;
+            
         }
 
-        public List<ProjectDetailsViewModel> GetById(int id)
+        public ProjectDetailsViewModel GetById(int id)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.FirstOrDefault(x => x.Id == id);
+
+            var projectDetails = new ProjectDetailsViewModel(
+                project.Id,
+                project.Title,
+                project.TotalCost,
+                project.CreateAt,
+                project.Status);
+
+            return projectDetails;
         }
 
         public void PostComment(CreateCommentInputModel inputModel)
@@ -57,12 +77,17 @@ namespace DevFreela.Application.Services.Implementations
 
         public void Start(int id)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.FirstOrDefault(x => x.Id == id);
+
+            project.Start();
         }
 
         public void Update(UpdateProjectInputModel inputModel)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.FirstOrDefault(x => x.Id == inputModel.Id);
+
+            project.Update(inputModel.Title, inputModel.Description, inputModel.TotalCost);
+
         }
     }
 }
