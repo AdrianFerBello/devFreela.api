@@ -3,7 +3,7 @@ using DevFreela.Application.ViewModels;
 
 namespace DevFreela.Application.Services.Interfaces
 {
-    public interface ISkillServices
+    public interface ISkillService
     {
         List<SkillsViewModel> GetAll();
         SkillDetailsViewModel GetById(int id);

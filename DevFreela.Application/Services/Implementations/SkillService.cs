@@ -5,7 +5,7 @@ using DevFreela.Infraestructure.Persistence;
 
 namespace DevFreela.Application.Services.Implementations
 {
-    public class SkillService : ISkillServices
+    public class SkillService : ISkillService
     {
         private readonly DbContext _dbContext;
         public SkillService(DbContext dbContext)
