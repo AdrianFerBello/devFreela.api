@@ -7,8 +7,8 @@ namespace DevFreela.Application.Services.Implementations
 {
     public class SkillService : ISkillService
     {
-        private readonly DbContext _dbContext;
-        public SkillService(DbContext dbContext)
+        private readonly DevFreelaDbContext _dbContext;
+        public SkillService(DevFreelaDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -37,6 +37,8 @@ namespace DevFreela.Application.Services.Implementations
             var skill = _dbContext.Skills.FirstOrDefault(x => x.Id == inputModel.Id);
 
             skill.Update(inputModel.Description);
+            _dbContext.SaveChanges();
+
         }
     }
 }
