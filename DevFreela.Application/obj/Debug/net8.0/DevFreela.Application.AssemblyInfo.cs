@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevFreela.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d588065aea8ffd1fe5d38482a2a6440664b10f62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82a5f477f5266b9efb85fd3271e67c97fcd15ca7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevFreela.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevFreela.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
