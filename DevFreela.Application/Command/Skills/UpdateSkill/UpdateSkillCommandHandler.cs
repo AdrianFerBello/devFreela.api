@@ -1,4 +1,5 @@
-﻿using DevFreela.Infraestructure.Persistence;
+﻿using DevFreela.Core.Repository;
+using DevFreela.Infraestructure.Persistence;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -11,14 +12,16 @@ namespace DevFreela.Application.Command.Skills.UpdateSkill
     public class UpdateSkillCommandHandler : IRequestHandler<UpdateSkillCommand, Unit>
     {
         private readonly DevFreelaDbContext _dbContext;
-        public UpdateSkillCommandHandler(DevFreelaDbContext dbContext)
+        private readonly ISkillRepository _skillRepository;
+        public UpdateSkillCommandHandler(DevFreelaDbContext dbContext, ISkillRepository skillRepository)
         {
+            _skillRepository = skillRepository;
             _dbContext = dbContext;
         }
 
         public async Task<Unit> Handle(UpdateSkillCommand request, CancellationToken cancellationToken)
         {
-            var skill = _dbContext.Skills.SingleOrDefault(x => x.Id == request.Id);
+            var skill = await _skillRepository.GetByIdAsync(request.Id);
 
             skill.Update(request.Description);
 

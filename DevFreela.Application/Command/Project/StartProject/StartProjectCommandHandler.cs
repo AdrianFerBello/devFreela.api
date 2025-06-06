@@ -1,4 +1,5 @@
-﻿using DevFreela.Infraestructure.Persistence;
+﻿using DevFreela.Core.Repository;
+using DevFreela.Infraestructure.Persistence;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,10 @@ namespace DevFreela.Application.Command.Project.StartProject
     public class StartProjectCommandHandler : IRequestHandler<StartProjectCommand, Unit>
     {
         private readonly DevFreelaDbContext _dbContext;
-        public StartProjectCommandHandler(DevFreelaDbContext dbContext)
+        private readonly IProjectRepository _projectRepository;
+        public StartProjectCommandHandler(DevFreelaDbContext dbContext, IProjectRepository projectRepository)
         {
+            _projectRepository = projectRepository;
             _dbContext = dbContext;
         }
 
@@ -20,8 +23,7 @@ namespace DevFreela.Application.Command.Project.StartProject
         {
             var project = _dbContext.Projects.FirstOrDefault(x => x.Id == request.Id);
 
-            project.Start();
-            await _dbContext.SaveChangesAsync();
+            await _projectRepository.StartAsync(project);
 
             return Unit.Value;
         }
