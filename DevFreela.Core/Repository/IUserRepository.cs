@@ -12,5 +12,6 @@ namespace DevFreela.Core.Repository
         Task<List<User>> GetAllAsync();
         Task<User> GetByIdAsync(int id);
         Task CreateAsync(User user);
+        Task<User> GetByUserEmailAndPasswordAsync(string email, string passwordHash);
     }
 }
